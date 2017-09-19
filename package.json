@@ -1,6 +1,6 @@
 {
-  "name": "crosslytics-browser-boilerplate-tracker",
-  "version": "0.0.0",
+  "name": "crosslytics-browser-intercom-tracker",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "main": "dist/index.umd.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/CrossLead/crosslytics-browser-boilerplate-tracker.git"
+    "url": "https://github.com/CrossLead/crosslytics-browser-intercom-tracker.git"
   },
   "author": {
     "name": "Christian Yang",
@@ -101,7 +101,7 @@
     "tslint-config-prettier": "^1.1.0",
     "tslint-config-standard": "^6.0.0",
     "typedoc": "^0.7.1",
-    "typescript": "^2.3.4",
+    "typescript": "^2.4.2",
     "validate-commit-msg": "^2.12.2"
   },
   "prettier": {

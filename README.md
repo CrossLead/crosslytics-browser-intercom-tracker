@@ -1,10 +1,6 @@
-# crosslytics-browser-boilerplate-tracker
-Boilerplate for making a Crosslytics browser tracker
+# crosslytics-browser-intercom-tracker
+[![Build Status](https://travis-ci.org/CrossLead/crosslytics-browser-intercom-tracker.svg?branch=master)](https://travis-ci.org/CrossLead/crosslytics-browser-intercom-tracker?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/CrossLead/crosslytics-browser-intercom-tracker/badge.svg?branch=master)](https://coveralls.io/github/CrossLead/crosslytics-browser-intercom-tracker?branch=master)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Usage
-1. Get a copy of the repo by doing one of the following:
-  - [Forking](#fork-destination-box)
-  - [Duplicating without forking](https://help.github.com/articles/duplicating-a-repository/)
-  - [Importing as a new repository](https://github.com/new/import)
-2. Update [src/tracker.ts](src/tracker.ts) with your tracker's implementation
-3. Update `libraryName` in [rollup.config.js](rollup.config.js) with your tracker's name
+Browser Crosslytics Tracker for [Intercom](https://www.intercom.com/)

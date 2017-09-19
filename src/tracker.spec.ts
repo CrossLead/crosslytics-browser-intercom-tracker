@@ -1,10 +1,10 @@
-import { SampleTracker } from '../src'
+import { IntercomTracker } from '../src'
 
 /**
  * Tracker test
  */
-describe('Tracker test', () => {
-  it('SampleTracker is instantiable', () => {
-    expect(new SampleTracker('accountId')).toBeInstanceOf(SampleTracker)
+describe('IntercomTracker tests', () => {
+  it('IntercomTracker should throw if window context invalid', () => {
+    expect(() => new IntercomTracker('accountId')).toThrow()
   })
 })
