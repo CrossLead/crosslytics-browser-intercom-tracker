@@ -57,8 +57,9 @@ export class IntercomTracker implements Tracker {
 
   public identify(identity: Identity) {
     const t = identity.traits
+    const userId = identity.userId ? { user_id: identity.userId } : {}
     const settings: IntercomSettings = {
-      user_id: identity.userId,
+      ...userId,
       ...identity.traits // keys happen to match up
     }
     if (identity.organization) {
